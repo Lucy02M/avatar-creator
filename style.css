@@ -56,6 +56,15 @@ body{
     box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
 }
 
+@keyframes blurred {
+    from {filter: opacity(0%)}
+    to {filter: opacity(100%)}
+}
+
+span {
+    animation: blurred 0.5s linear 0s infinite alternate;
+}
+
 .name:hover{
     color: var(--red);
     cursor: pointer;
