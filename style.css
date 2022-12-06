@@ -22,10 +22,10 @@ body{
 }
 
 #hair{
-    height: 120px;
+    height: 130px;
     width: 120px;
     position: relative;
-    top: 90px;
+    top: 85px;
     border-radius: 60px 60px 10px 10px;
     border: 2px solid;
 }
@@ -73,13 +73,24 @@ body{
 }
 
 #body{
-    height: 120px;
-    width: 110px;
+    height: 110px;
+    width: 90px;
     border-radius: 10px;
     border: 2px solid;
     border-radius: 30px 30px 50px 50px;
     background-color: white;
     z-index: 1;
+}
+
+#bottom{
+    border: 2px solid;
+    height: 60px;
+    width: 150px;
+    position: relative;
+    top: -30px;
+    z-index: 2;
+    border-radius: 60px 60px 10px 10px;
+    background-color: white;
 }
 
 #rest{
@@ -119,16 +130,16 @@ body{
 
 #legs{
     height: 100px;
-    width: 140px;
+    width: 100px;
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: -20px;
+    top: -70px;
 }
 
 .leg{
     height: 90px;
-    width: 55px;
+    width: 40px;
     border: 2px solid;
 }
 
@@ -144,11 +155,11 @@ body{
 
 #feet{
     height: 50px;
-    width: 170px;
+    width: 150px;
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: -40px;
+    top: -90px;
 }
 
 .foot{
