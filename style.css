@@ -22,32 +22,48 @@ body{
 }
 
 #hair{
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     position: relative;
-    top: 70px;
-    border-radius: 40px 40px 10px 10px;
+    top: 90px;
+    border-radius: 60px 60px 10px 10px;
     border: 2px solid;
 }
 
 #head{
-    height: 60px;
-    width: 60px;
-    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 30px 30px 40px 40px ;
     border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+    z-index: 1;
+}
+
+#neck{
+    border: 2px solid;
+    height: 12px;
+    width: 25px;
+    position: relative;
+    top: 15px;
+    background-color: white;
 }
 
 #body{
-    height: 80px;
-    width: 80px;
+    height: 130px;
+    width: 110px;
     border-radius: 10px;
     border: 2px solid;
-    border-radius: 20px 20px 10px 10px;
+    border-radius: 30px 30px 50px 50px;
+    background-color: white;
+    z-index: 1;
 }
 
 #rest{
     position: relative;
-    top: -45px;
+    top: -60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,73 +71,79 @@ body{
 }
 
 #arms{
-    height: 60px;
-    width: 150px;
+    height: 70px;
+    width: 210px;
     position: relative;
-    top: 60px;
+    top: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .arm{
-    height: 20px;
-    width: 50px;
-    border-radius: 10px;
+    height: 40px;
+    width: 90px;
     border: 2px solid;
 }
 
 .arm.right{
     transform: rotate(-30deg);
+    border-radius: 40px 0 10px 10px;
 }
 
 .arm.left{
     transform: rotate(30deg);
+    border-radius: 0 40px 10px 10px;
 }
 
 #legs{
-    height: 60px;
-    width: 80px;
+    height: 100px;
+    width: 140px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: -20px;
 }
 
 .leg{
-    height: 50px;
-    width: 30px;
-    border-radius: 10px;
+    height: 90px;
+    width: 55px;
     border: 2px solid;
 }
 
 .leg.right{
-    transform: rotate(10deg);
+    transform: rotate(15deg);
+    border-radius: 40px 0 30px 30px;
 }
 
 .leg.left{
-    transform: rotate(-10deg);
+    transform: rotate(-15deg);
+    border-radius: 0px 40px 30px 30px;
 }
 
 #feet{
-    height: 30px;
-    width: 100px;
+    height: 50px;
+    width: 170px;
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: -10px;
+    top: -40px;
 }
 
 .foot{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 60px;
     border: 2px solid;
+    background-color: white;
+    z-index: 1;
 }
 
 .foot.right{
-    border-radius: 10px 5px 2px 5px;
+    border-radius: 30px 5px 5px 15px;
 }
 
 .foot.left{
-    border-radius: 5px 10px 5px 2px;
+    border-radius: 5px 30px 15px 5px;
 }
 
 #footer{
