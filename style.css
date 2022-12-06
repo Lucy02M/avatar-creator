@@ -36,10 +36,31 @@ body{
     border-radius: 30px 30px 40px 40px ;
     border: 2px solid;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
     background-color: white;
     z-index: 1;
+}
+
+#face{
+    height: 40px;
+    width: 50px;
+}
+
+#eyes{
+    height: 20px;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eye{
+    height: 15px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: black;
+
 }
 
 #neck{
@@ -52,7 +73,7 @@ body{
 }
 
 #body{
-    height: 130px;
+    height: 120px;
     width: 110px;
     border-radius: 10px;
     border: 2px solid;
